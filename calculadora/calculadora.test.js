@@ -1,7 +1,7 @@
 const operacoes = require("./calculadora");
 
 describe("Teste calculadora", () => {
-  test("Adicionar 1 + 2 deve retornar 3", () => {
+  test("Adição 1 + 2 deve retornar 3", () => {
     var resultado = operacoes.add(1, 2);
 
     expect(resultado).toBe(3);
